@@ -5,12 +5,14 @@
 
 header {
     padding-top: 27px;
+    max-width: 1032px;
+    margin: auto;
 }
 
 header nav ul {
-    list-style: none;
     display: flex;
     justify-content: flex-end;
+    list-style: none;
 }
 
 header nav ul li {
@@ -20,8 +22,11 @@ header nav ul li {
     font-size: 20px;
     line-height: 29px;
     text-align: right;
-    text-decoration: none;
     color: #000000;
+}
+
+header nav ul li a {
+    text-decoration: none;
 }
 
 h1 {
